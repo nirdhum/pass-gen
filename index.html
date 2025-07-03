@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>PassGen- Nirdhum</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="password-container">
+            <span id="password"></span>
+            <button class="btn" id="copy">
+                <i class="fa-solid fa-copy"></i>
+            </button>
+        </div>
+        <div class="settings">
+            <div class="setting length">
+                <label>Password length</label>
+                <input type="number" class="number" id="length" min="8" max="20" value="20">
+            </div>
+            <div class="setting">
+                <label>Include Uppercase letters</label>
+                <input type="checkbox" class="large-checkbox" id="uppercase" checked>
+            </div>
+            <div class="setting">
+                <label>Include Lowercase letters</label>
+                <input type="checkbox" class="large-checkbox" id="lowercase" checked>
+            </div>
+            <div class="setting">
+                <label>Include numbers</label>
+                <input type="checkbox" class="large-checkbox" id="numbers" checked>
+            </div>
+            <div class="setting">
+                <label>Include symbols</label>
+                <input type="checkbox" class="large-checkbox" id="symbols" checked>
+            </div>
+        </div>
+        <button class="btn btn-large" id="generate">Generate Password</button>
+        <p>Made by Nirdhum</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
