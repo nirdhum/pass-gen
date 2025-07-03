@@ -15,7 +15,7 @@
 
 ## 🚀 Live Demo
 
-👉 [**Try it Live**](https://your-username.github.io/passgen)
+👉 [**Try it Live**](https://nirdhum.github.io/pass-gen/)
 
 ## 🛠️ Technologies Used
 
@@ -39,7 +39,7 @@ pass-gen/
 
 Users can customize:
 
-- Password length (e.g. 6–30 characters)
+- Password length (e.g. 8–20 characters)
 - Whether to include:
   - Uppercase letters
   - Lowercase letters
